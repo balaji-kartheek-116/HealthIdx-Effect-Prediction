@@ -8,15 +8,15 @@ import pickle
 models_directory = 'models'
 
 # Load the Linear Regression Model
-with open(f'{models_directory}/linear_regression_model.pkl', 'rb') as file:
+with open(f'linear_regression_model.pkl', 'rb') as file:
     lr_model = pickle.load(file)
 
 # Load the Random Forest Model
-with open(f'{models_directory}/random_forest_model.pkl', 'rb') as file:
+with open(f'random_forest_model.pkl', 'rb') as file:
     rf_model = pickle.load(file)
 
 # Load the Support Vector Machine (SVR) Model
-with open(f'{models_directory}/svr_model.pkl', 'rb') as file:
+with open(f'svr_model.pkl', 'rb') as file:
     svm_model = pickle.load(file)
 
 # Load the dataset
